@@ -12,6 +12,8 @@
 		04F3B49221E283CD00327D7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F3B49021E283CD00327D7F /* Main.storyboard */; };
 		04F3B49421E283CF00327D7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F3B49321E283CF00327D7F /* Assets.xcassets */; };
 		04F3B49721E283CF00327D7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F3B49521E283CF00327D7F /* LaunchScreen.storyboard */; };
+		04F3B49F21E2844200327D7F /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F3B49E21E2844200327D7F /* VideoTableViewCell.swift */; };
+		04F3B4A121E2899D00327D7F /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F3B4A021E2899D00327D7F /* VideoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		04F3B49321E283CF00327D7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04F3B49621E283CF00327D7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04F3B49821E283CF00327D7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04F3B49E21E2844200327D7F /* VideoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
+		04F3B4A021E2899D00327D7F /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				04F3B49321E283CF00327D7F /* Assets.xcassets */,
 				04F3B49521E283CF00327D7F /* LaunchScreen.storyboard */,
 				04F3B49821E283CF00327D7F /* Info.plist */,
+				04F3B49E21E2844200327D7F /* VideoTableViewCell.swift */,
+				04F3B4A021E2899D00327D7F /* VideoViewController.swift */,
 			);
 			path = YoutubeEmbedApp;
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			files = (
 				04F3B48F21E283CD00327D7F /* ViewController.swift in Sources */,
 				04F3B48D21E283CD00327D7F /* AppDelegate.swift in Sources */,
+				04F3B4A121E2899D00327D7F /* VideoViewController.swift in Sources */,
+				04F3B49F21E2844200327D7F /* VideoTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
