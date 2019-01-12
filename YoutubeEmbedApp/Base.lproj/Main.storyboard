@@ -20,7 +20,7 @@
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="VUv-Sn-d24">
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" red="0.82965180837563457" green="0.0" blue="0.02329502318141188" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" rowHeight="113" id="w31-6d-xrl" customClass="VideoTableViewCell" customModule="YoutubeEmbedApp" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="113"/>
@@ -36,13 +36,13 @@
                                                         <constraint firstAttribute="height" constant="120" id="oJF-fT-soJ"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nnj-5Y-qdF">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nnj-5Y-qdF">
                                                     <rect key="frame" x="130" y="55" width="240" height="21"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="21" id="pvX-xL-pkc"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -56,6 +56,7 @@
                                                 <constraint firstAttribute="trailing" secondItem="nnj-5Y-qdF" secondAttribute="trailing" constant="5" id="tIs-6Z-fqx"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.82965180839999997" green="0.0" blue="0.023295023179999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
                                             <outlet property="videoImage" destination="bpy-MA-N42" id="dQ4-GH-zfq"/>
                                             <outlet property="videoTitle" destination="nnj-5Y-qdF" id="Rip-rd-eOF"/>
@@ -68,7 +69,7 @@
                                 </connections>
                             </tableView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="VUv-Sn-d24" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="43J-B2-yyj"/>
                             <constraint firstItem="VUv-Sn-d24" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="A1m-Zn-gjn"/>
@@ -106,12 +107,12 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="oMU-oU-Y27"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.0" green="0.24220346879999999" blue="0.39330770729999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.82965180839999997" green="0.0" blue="0.023295023179999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="n91-RD-Swd" firstAttribute="leading" secondItem="ga6-AV-yzC" secondAttribute="leading" constant="5" id="IQv-Gb-Lbx"/>
                             <constraint firstItem="ga6-AV-yzC" firstAttribute="trailing" secondItem="n91-RD-Swd" secondAttribute="trailing" constant="5" id="JKk-Db-KAw"/>

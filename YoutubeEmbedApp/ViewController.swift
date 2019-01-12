@@ -32,6 +32,31 @@ class ViewController: UIViewController,UITableViewDelegate, UITableViewDataSourc
         video3.Title = "How To Use The Shake Gesture Recogniser"
         videos.append(video3)
         
+        let video4 = Video()
+        video4.Key = "g67TvCJhpjU"
+        video4.Title = "How To Hide The Status Bar In Xcode"
+        videos.append(video4)
+        
+        let video5 = Video()
+        video5.Key = "FzOsiD0V_j4"
+        video5.Title = "How To Store Data Permanently With User Defaults"
+        videos.append(video5)
+        
+        let video6 = Video()
+        video6.Key = "nACyGQI-bH8"
+        video6.Title = "How To Store Data Permanently With User Defaults"
+        videos.append(video6)
+        
+        let video7 = Video()
+        video7.Key = "ERcavWn_-ZM"
+        video7.Title = "How To Display An Activity Indicator In xCode"
+        videos.append(video7)
+        
+        let video8 = Video()
+        video8.Key = "fFyC8vI2r2M"
+        video8.Title = "How To Trigger A Segue In xCode 10"
+        videos.append(video8)
+        
     }
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
